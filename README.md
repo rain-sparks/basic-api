@@ -31,3 +31,4 @@ Result: Value is 5 <br>
     
 ### NOTE: Endpoints were tested through POSTMAN
 
+### TO ADD: CI/CD using Github Actions
