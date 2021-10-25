@@ -54,6 +54,7 @@ class IndexController extends Controller
     }
     public function getValue(request $request, $key){
         // get value based on key
+        if($key <> 'get_all_records') {
         $find_key = Table::where('key',$key)->first();
             if($find_key){
                 if(!empty($request->all())){
@@ -71,6 +72,7 @@ class IndexController extends Controller
                     'Value is:' =>  $find_key->value,
                 ]);
             }
+        }
     }
     public function getAll(){
         // get all records
