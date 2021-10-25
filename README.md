@@ -27,4 +27,7 @@ Result: Value is 5 <br>
 
 ### Case 4: Retrieve all Values
 #### Endpoint: http://erika.pieper.im/public/api/get_all_records
+    
+    
+### NOTE: Endpoints were tested through POSTMAN
 
