@@ -33,7 +33,10 @@ jobs:
 
       - name: Checkout
 
-        uses: appleboy/ssh-action@main
+        uses: actions/checkout@v2
+      
+      - name: Deployment
+        uses: appleboy/ssh-action@master
 
         with:
 
