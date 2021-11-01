@@ -58,7 +58,7 @@ jobs:
             
             composer dump-autoload
             
-            php artisan test --filter BasicTest
+            ./vendor/bin/phpunit ./tests/Feature/BasicTest.php
             
             
             
