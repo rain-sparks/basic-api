@@ -33,13 +33,13 @@ jobs:
 
       - name: Checkout
 
-        uses: actions/checkout@v2
+        uses: appleboy/ssh-action@main
 
         with:
 
-          ssh-known-hosts: ${{ secrets.SSH_HOST }}
+          host: ${{ secrets.SSH_HOST }}
 
-          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
 
           username: ${{ secrets.SSH_USERNAME }}
 
