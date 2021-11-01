@@ -58,7 +58,7 @@ jobs:
             
             composer dump-autoload
             
-            ./vendor/bin/phpunit ./tests/Feature/BasicTest.php
+            php artisan test --testsuite=Feature --stop-on-failure
             
             
             
