@@ -37,9 +37,9 @@ jobs:
 
         with:
 
-          host: ${{ secrets.SSH_HOST }}
+          ssh-known-hosts: ${{ secrets.SSH_HOST }}
 
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
           username: ${{ secrets.SSH_USERNAME }}
 
