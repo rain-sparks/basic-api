@@ -6,6 +6,7 @@
 <b>Code repository: Github <br>
 <b>Web and Database Hosting: Kas Server <br>
 <b>Testing: PHP Unit Test <br>
+<b> CI/CD: Github Actions <br>
 
 ## Project requirements:
 Build a simple API that cater the following cases:<br>
@@ -31,6 +32,6 @@ Result: Value is 5 <br>
     
     
 ### NOTE: Endpoints were tested through POSTMAN
-### Unit Test: run php artisan test
+
 
  
